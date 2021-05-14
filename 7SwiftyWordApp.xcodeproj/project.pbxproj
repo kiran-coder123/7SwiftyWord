@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59823995264D0B7700615D59 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 59823993264D0B7700615D59 /* level2.txt */; };
+		59823996264D0B7700615D59 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 59823994264D0B7700615D59 /* level1.txt */; };
 		5987E2D7264CCC7700B295BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5987E2D6264CCC7700B295BC /* AppDelegate.swift */; };
 		5987E2D9264CCC7700B295BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5987E2D8264CCC7700B295BC /* SceneDelegate.swift */; };
 		5987E2DB264CCC7700B295BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5987E2DA264CCC7700B295BC /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59823993264D0B7700615D59 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		59823994264D0B7700615D59 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 		5987E2D3264CCC7600B295BC /* 7SwiftyWordApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7SwiftyWordApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5987E2D6264CCC7700B295BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5987E2D8264CCC7700B295BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				5987E2DF264CCC9800B295BC /* Assets.xcassets */,
 				5987E2E1264CCC9800B295BC /* LaunchScreen.storyboard */,
 				5987E2E4264CCC9800B295BC /* Info.plist */,
+				59823994264D0B7700615D59 /* level1.txt */,
+				59823993264D0B7700615D59 /* level2.txt */,
 			);
 			path = 7SwiftyWordApp;
 			sourceTree = "<group>";
@@ -124,8 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59823996264D0B7700615D59 /* level1.txt in Resources */,
 				5987E2E3264CCC9800B295BC /* LaunchScreen.storyboard in Resources */,
 				5987E2E0264CCC9800B295BC /* Assets.xcassets in Resources */,
+				59823995264D0B7700615D59 /* level2.txt in Resources */,
 				5987E2DE264CCC7700B295BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.globalworldtech.-SwiftyWordApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.globalworldtech.-SwiftyWordApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
